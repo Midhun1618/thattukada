@@ -1,9 +1,10 @@
 .navbar {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
-    background-color: #ffe418;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    background-color: #f9f9f9;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
   
@@ -11,7 +12,8 @@
     font-family: 'Salsa', cursive;
     font-weight: bold;
     font-size: 2rem;
-    color: #f9f9f9;
+    color: #FBCB7E;
+    padding-bottom: 1rem;
   }
   
   .nav {
@@ -32,8 +34,9 @@
     position: absolute;
     bottom: 0;
     height: 100%;
-    background-color: #d2bd00;
-    border-radius: 6px;
+    background-color: #FBCB7E;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
     transition: all 0.3s ease;
     z-index: 0;
   }
