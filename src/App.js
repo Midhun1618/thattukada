@@ -4,6 +4,7 @@ import Navbar from './Navbar';
 import Menu from './Menu';
 import Body from './Body';
 import Par from './Par';
+import User from './User';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Body />} />
         <Route path="/menu" element={<Menu />} />
+        <Route path="/user" element={<User />} />
         <Route path="/par" element={<Par />} />
       </Routes>
     </Router>
