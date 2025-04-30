@@ -1,7 +1,6 @@
 
 html, body {
     height: 100vh;
-    overflow: hidden;
     margin: 0;
     padding-bottom: 2rem;
     font-family: 'Salsa', cursive;
@@ -34,7 +33,7 @@ html, body {
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 80%;
   }
   
