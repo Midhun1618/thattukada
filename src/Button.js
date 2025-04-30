@@ -30,7 +30,7 @@ const AddToCartButton = () => {
           border: '1px solidrgb(154, 252, 25)',
           borderRadius: '8px',
           padding: '4px 10px',
-          width: 'fit-content'
+          width: 'fit-content' 
         }}>
           <button onClick={handleRemove}
             style={{
