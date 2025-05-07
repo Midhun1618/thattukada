@@ -6,6 +6,7 @@ const foodItemSchema = new mongoose.Schema({
   price: Number,
   availability: Boolean,
   image: String,
+  status: String
 });
 
 // 👇 This tells mongoose to use the "menu" collection
