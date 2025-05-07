@@ -98,8 +98,6 @@ function Body() {
           <div>
             <p><strong>Name:</strong> {selectedOrder.name}</p>
             <p><strong>Price:</strong> ₹{selectedOrder.price}</p>
-            <p><strong>Status:</strong> {selectedOrder.status}</p>
-            <p><strong>Image:</strong> {selectedOrder.image}</p>
           </div>
         )}
       </Modal>
