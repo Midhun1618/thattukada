@@ -97,7 +97,7 @@ function Body() {
         {selectedOrder && (
           <div>
             <p><strong>Name:</strong> {selectedOrder.name}</p>
-            <p><strong>Price:</strong> ₹{selectedOrder.price}</p>
+            <p><strong>Price:</strong> ₹{selectedOrder.price}</p> 
           </div>
         )}
       </Modal>
