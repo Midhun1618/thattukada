@@ -19,7 +19,7 @@ const foodItems = [
     },
     {
       name: "Stew",
-      price: 35,
+      price: 30,
       availability: true,
       image: "stew.jpg"
     },
@@ -66,10 +66,10 @@ const foodItems = [
       image: "chicken_fry.jpg"
     },
     {
-      name: "Karimeen Fry",
-      price: 75,
+      name: "Chicken curry",
+      price: 50,
       availability: false,
-      image: "karimeen.jpg"
+      image: "chickencurry.jpg"
     },
     {
       name: "Pazhampori",
@@ -78,20 +78,20 @@ const foodItems = [
       image: "pazhampori.jpg"
     },
     {
-      name: "Unnakaya",
+      name: "Parippuvada",
       price: 20,
       availability: true,
-      image: "unnakaya.jpg"
+      image: "parippuvada.jpg"
     },
     {
-      name: "Ela Ada",
+      name: "Sulaimani",
       price: 15,
       availability: true,
-      image: "ela_ada.jpg"
+      image: "sulaimani.jpg"
     },
     {
       name: "Chaya",
-      price: 8,
+      price: 12,
       availability: true,
       image: "chaya.jpg"
     }
